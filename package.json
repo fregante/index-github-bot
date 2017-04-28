@@ -1,0 +1,22 @@
+{
+  "name": "index-github-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "common-tags": "^1.4.0",
+    "gh-got": "^5.0.0",
+    "micro": "^7.3.2"
+  },
+  "now": {
+    "alias": "github-user-index",
+    "dotenv": true
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "micro",
+    "deploy": "now && now alias"
+  },
+  "author": "Federico Brigante <npm@bfred.it> (https://twitter.com/bfred_it)",
+  "license": "ISC"
+}
