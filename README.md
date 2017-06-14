@@ -2,6 +2,10 @@
 
 App/bot that creates new issues in my [repository index](https://github.com/bfred-it/index) every time I create a repo.
 
+## Notice
+
+This repo has my user hard coded at the moment. https://github.com/bfred-it/index-github-bot/issues/1
+
 ## Setup
 
 1. Register a [GitHub Integration](https://github.com/settings/integrations).
