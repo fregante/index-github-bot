@@ -2,21 +2,22 @@
   "name": "index-github-bot",
   "version": "1.0.0",
   "description": "",
+  "repository": "fregante/index-github-bot",
+  "license": "MIT",
+  "author": "Federico Brigante <opensource@bfred.it> (bfred.it)",
   "main": "index.js",
+  "scripts": {
+    "deploy": "now && now alias",
+    "start": "micro"
+  },
   "dependencies": {
     "common-tags": "^1.4.0",
     "gh-got": "^5.0.0",
     "micro": "^7.3.2"
   },
+  "devDependencies": {},
   "now": {
     "alias": "github-user-index",
     "dotenv": true
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "micro",
-    "deploy": "now && now alias"
-  },
-  "author": "Federico Brigante <npm@bfred.it> (https://twitter.com/bfred_it)",
-  "license": "ISC"
+  }
 }

@@ -1,6 +1,6 @@
 # github-index-bot
 
-App/bot that creates new issues in my [repository index](https://github.com/bfred-it/index) every time I create a repo.
+App/bot that creates new issues in my [repository index](https://github.com/fregante/index) every time I create a repo.
 
 ## Setup
 
